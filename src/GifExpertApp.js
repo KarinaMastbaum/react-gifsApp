@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
+import { Footer } from './Footer';
 
 
 
@@ -19,7 +20,6 @@ export const GifExpertApp = () => {
             <h2 className="gifExpertApp">Gifs App</h2>
             <AddCategory setCategories={ setCategories} />
             <hr />
-
         {/* <button onClick={handleAdd}>Agregar</button> */}
 
         <ol>
@@ -34,7 +34,6 @@ export const GifExpertApp = () => {
                  ))
             }
         </ol>
-
         </>
     )
 }
